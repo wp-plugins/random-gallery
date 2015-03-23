@@ -1,5 +1,5 @@
 === Random Gallery ===
-Contributors: DavidGreenwold 
+Contributors: David Greenwold 
 Donate link: http://www.greenwold.com/web-projects/#random-gallery
 Tags: gallery, tiled, random, truncate, list, media, pictures, photos
 Requires at least: 3.0.1
