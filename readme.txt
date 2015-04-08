@@ -14,7 +14,7 @@ Display a random selection of photos from an arbitrarily large list.
 
 Give Random Gallery a list of photos and a number. It will pick that number of photos randomly from your list and send them off to a normal gallery. It works great with Jetpack's Tiled Galleries.
 
-The easiest way to use the plugin is to insert a normal gallery into your page. Be sure to select all of the photos you want Random Gallery to draw from. In the editor, you'll see something like this:
+The easiest way to use Random Gallery is to insert a normal gallery into your page. Be sure to select all of the photos you want Random Gallery to draw from. In the editor, you'll see something like this:
 
 [gallery ids="1,2,3,5,8,13,21"]
 
