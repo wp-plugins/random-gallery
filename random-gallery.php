@@ -1,5 +1,5 @@
 <?php
-/*Plugin Name: Random GalleryDescription: Display a random selection of photos from an arbitrarily large list.License: GPLv2 or laterAuthor: David GreenwoldAuthor URI: http://www.greenwold.com/web-projects/#random-galleryVersion: 00.01*/
+/*Plugin Name: Random GalleryDescription: Display a random selection of photos from an arbitrarily large list.License: GPLv2 or laterAuthor: David GreenwoldAuthor URI: http://www.greenwold.com/web-projects/#random-galleryVersion: 00.01*/
 class dgplugins {
 function random_gallery($attr)  { // $attr is the default name given by wp to an array consisting of the key/value pairs defined by the user in the shortcode	// Sanitize the user input.
 	sanitize_text_field($attr['ids']);	sanitize_text_field($attr['shownum']);	$ids_in = explode(",", $attr['ids']); // Split the ids string into an array.	$count_in = count($ids_in); // Get the length of the array (the number of ids).	// Try to account for mistakes the user might make in entering shownum.
